@@ -5,9 +5,9 @@ import { MenubarComponent } from './components/menubar/menubar.component';
 import { HeaderComponent } from './components/header/header.component';
 import { AboutComponent } from './components/about/about.component';
 import { DownloadComponent } from './components/download/download.component';
-import { PlansComponent } from './components/plans/plans.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { PlansComponent } from './components/plans/plans.component';
 
 @Component({
   selector: 'app-root',

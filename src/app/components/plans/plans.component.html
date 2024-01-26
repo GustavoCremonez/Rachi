@@ -1,1 +1,15 @@
-<p>plans works!</p>
+<section>
+  <h3>Nossos planos</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec <br />lacinia
+    mi quis euismod ultrices.
+  </p>
+
+  <ul>
+    @for (item of planData(); track $index) {
+    <li>
+      <app-plan-card [planData]="item" />
+    </li>
+    }
+  </ul>
+</section>

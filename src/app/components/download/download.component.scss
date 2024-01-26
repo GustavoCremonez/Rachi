@@ -30,6 +30,10 @@ section {
     span {
       display: flex;
       gap: 1rem;
+
+      img {
+        cursor: pointer;
+      }
     }
   }
 }

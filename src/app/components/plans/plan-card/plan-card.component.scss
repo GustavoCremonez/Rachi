@@ -1,0 +1,82 @@
+.plan-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eff8ff;
+  height: 471px;
+  border-radius: 8px;
+  padding: 2rem;
+
+  .plan-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--foreground-color);
+  }
+
+  .plan-value {
+    display: flex;
+    font-size: 50px;
+    font-weight: 700;
+    color: var(--foreground-color);
+    margin: 90px 0 40px 0;
+
+    .plan-value-currency {
+      font-size: 20px;
+      margin-top: 10px;
+    }
+
+    .plan-value-month {
+      font-size: 26px;
+      margin-top: 23px;
+      margin-left: 5px;
+    }
+  }
+
+  .plan-description {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--secondary-color);
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .plan-button {
+    width: 230px;
+    height: 43px;
+    border: none;
+    border-radius: 50px;
+    color: var(--background-color);
+    background-color: var(--primary-color);
+    cursor: pointer;
+  }
+}
+
+.plan-card.popular {
+  background-color: var(--foreground-color);
+
+  .plan-title {
+    color: var(--background-color);
+  }
+
+  .plan-popular {
+    margin-top: 20px;
+    background-color: var(--primary-color);
+    padding: 5px 32px 5px 32px;
+    border-radius: 15px;
+    width: 164px;
+    height: 27px;
+    text-align: center;
+    color: var(--background-color);
+    text-transform: uppercase;
+  }
+
+  .plan-value {
+    margin: 40px 0;
+    color: var(--background-color);
+  }
+
+  .plan-description {
+    color: var(--secondary-text-color);
+  }
+}

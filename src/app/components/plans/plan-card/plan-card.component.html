@@ -1,0 +1,18 @@
+<span
+  [classList]="planData.popular == true ? 'plan-card popular' : 'plan-card'"
+>
+  <h5 class="plan-title">{{ planData.title }}</h5>
+  @if (planData.popular) {
+  <span class="plan-popular">Preferido</span>
+  }
+
+  <span class="plan-value"
+    ><p class="plan-value-currency">R$</p>
+    {{ planData.value }}
+    <p class="plan-value-month">/mês</p></span
+  >
+  <p class="plan-description">
+    {{ planData.description }}
+  </p>
+  <button class="plan-button">Assinar</button>
+</span>
