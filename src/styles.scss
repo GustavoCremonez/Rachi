@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+::root {
+  --primary-color: #0f9afe;
+  --secondary-color: #6e7275;
+  --foreground-color: #293145;
+  --secondary-text-color: #dbdbdb;
+  --background-color: #ffffff;
+
+  --message: #2962ff;
+  --sucess: #0bb07b;
+  --warning: #ffce52;
+  --error: #f03d3d;
+  --information: #e0e0e0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
