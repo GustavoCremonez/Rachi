@@ -1,27 +1,41 @@
+
 # Rachi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+Rachi é um projeto desafio da comunidade codelândia dirigida pelo [Iuri Silva](https://github.com/iuricode), no desafio é disponibilizado interfaces no figma de diversos projetos e seus assets e você precisa replicar aquelas interfaces em código, com qualquer tecnologia/framework. Escolhi realizar o desafio com o angular usando algumas novas ferramentas como o signal, as novas formas de usar o If e For, etc.
+ 
+## Funcionalidades
 
-## Development server
+O projeto é basicamente uma landing page para venda que tem um formulário de contato para capturar os leads.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Rodando localmente
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Clone o projeto
 
-## Build
+```bash
+  git clone https://github.com/GustavoCremonez/Rachi.git
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Entre no diretório do projeto
 
-## Running unit tests
+```bash
+  cd "pasta do projeto"
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Instale as dependências
 
-## Running end-to-end tests
+```bash
+  npm install
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Inicie o servidor
 
-## Further help
+```bash
+  npm run start
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+## Stack utilizada
+
+**Front-end:** Angular
+
