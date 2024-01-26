@@ -1,4 +1,4 @@
-::root {
+:root {
   --primary-color: #0f9afe;
   --secondary-color: #6e7275;
   --foreground-color: #293145;
@@ -16,4 +16,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Sora";
 }
