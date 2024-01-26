@@ -3,7 +3,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  background-color: #ebf2f3;
+  background-color: #eff8ff;
   padding: 0 2rem;
 
   section {
@@ -22,6 +22,7 @@ header {
       border: none;
       font-size: 20px;
       color: var(--background-color);
+      cursor: pointer;
     }
   }
 

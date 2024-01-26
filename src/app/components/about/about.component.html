@@ -1,1 +1,11 @@
-<p>about works!</p>
+<section>
+  <h2>Como funciona</h2>
+
+  <ul>
+    @for (item of data(); track $index) {
+    <li>
+      <app-about-card [aboutData]="item" />
+    </li>
+    }
+  </ul>
+</section>
