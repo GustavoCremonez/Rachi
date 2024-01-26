@@ -1,0 +1,32 @@
+header {
+  height: 640px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ebf2f3;
+  padding: 0 2rem;
+
+  section {
+    p {
+      font-size: 48px;
+      font-weight: 600;
+      color: var(--foreground-color);
+    }
+
+    button {
+      margin-top: 50px;
+      background-color: var(--primary-color);
+      width: 200px;
+      height: 56px;
+      border-radius: 50px;
+      border: none;
+      font-size: 20px;
+      color: var(--background-color);
+    }
+  }
+
+  img {
+    width: 500px;
+    height: 500px;
+  }
+}
